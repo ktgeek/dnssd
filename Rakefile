@@ -7,6 +7,7 @@ Hoe.plugin :minitest
 Hoe.plugin :email
 Hoe.plugin :git
 Hoe.plugin :compiler
+Hoe.plugin :gemspec
 
 HOE = Hoe.spec 'dnssd' do
   developer 'Eric Hodel',      'drbrain@segment.net'
